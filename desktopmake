@@ -1,0 +1,70 @@
+#! /usr/bin/bash
+echo "baking .desktop file with your make.dsktop"
+echo "what name should be .desktop file:"
+read name
+echo "ok creating $name.desktop in ~/local/share/applications/"
+path=~/.local/share/applications/$name.desktop
+touch $path
+echo "[Desktop Entry]" >> $path
+
+# Name of Application that is Displaed in app-manager
+echo "What name should be Displaed ?"
+read Name 
+echo "Name=$Name" >> $path
+
+#Comment for app 
+echo "Comment for the app ?"
+read Comment
+echo "Comment=$Comment" >> $path
+
+#Version of the Application
+echo "Version of the program ?"
+read Version
+echo "Version=$Version" >> $path
+
+# Path to Icom
+echo "What is to ptah to icon ?"
+read Icon
+echo "Icon=$Icon" >> $path
+
+#Keywords For Application
+echo "whaat are Keywords for the app ?"
+read Keywords
+echo "Keywords=$Keywords" >> $path
+
+# Type of Application 
+echo -e "Type of application: \n\t- Application\n\t- Link"
+read Type 
+echo "Type=$Type" >> $path
+if [[ $Type == "Application" ]]; then
+
+  # path to exetutable file 
+  echo "Where is exetutable file"
+  read Exec
+  echo "Exec=$Exec" >> $path
+
+  #is it Terminal App 
+  echo "Is this app terminal app ? True or False"
+  read Terminal 
+  if [[ $Terminal != True || $Terminal != False ]]; then
+    echo "Terminal=$Terminal" >> $path
+  fi
+
+  # Categories 
+  echo "All posible Categories when you type L"
+  read List
+  if [[ $List = L ]]; then
+    most ./Categories
+  fi
+  echo "Write Categoris like this: first, second, third, ..."
+  read Categories
+  echo "Categories=$Categories" >> $path
+
+# URL if its Link Type
+elif [[ $Type == "Link" ]]; then
+  echo "URL for the site you want "
+  read  URL
+  echo "URL=$URL" >> $path
+fi
+  
+

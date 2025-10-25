@@ -1,0 +1,131 @@
+1. Building — A tool to build applications
+2. Debugger — A tool to debug applications
+3. IDE — IDE application
+4. GUIDesigner — A GUI designer application
+5. Profiling — A profiling tool
+6. RevisionControl — Applications like cvs or subversion
+7. Translation — A translation tool
+8. Calendar — Calendar application
+9. ContactManagement — E.g. an address book
+10. Database — Application to manage a database
+11. Dictionary — A dictionary
+12. Chart — Chart application
+13. Email — Email application
+14. Finance — Application to manage your finance
+15. FlowChart — A flowchart application
+16. PDA — Tool to manage your PDA
+17. ProjectManagement — Project management application
+18. Presentation — Presentation software
+19. Spreadsheet — A spreadsheet
+20. WordProcessor — A word processor
+21. 2DGraphics — 2D based graphical application
+22. VectorGraphics — Application for viewing, creating, or processing vector graphics
+23. RasterGraphics — Application for viewing, creating, or processing raster (bitmap) graphics
+24. 3DGraphics — Application for viewing, creating, or processing 3-D graphics
+25. Scanning — Tool to scan a file/text
+26. OCR — Optical character recognition application
+27. Photography — Camera tools, etc.
+28. Publishing — Desktop Publishing applications and Color Management tools
+29. Viewer — Tool to view e.g. a graphic or pdf file
+30. TextTools — A text tool utility
+31. DesktopSettings — Configuration tool for the GUI
+32. HardwareSettings — A tool to manage hardware components, like sound cards, video cards or printers
+33. Printing — A tool to manage printers
+34. PackageManager — A package manager application
+35. Dialup — A dial-up program
+36. InstantMessaging — An instant messaging client
+37. Chat — A chat client
+38. IRCClient — An IRC client
+39. Feed — RSS, podcast and other subscription based contents
+40. FileTransfer — Tools like FTP or P2P programs
+41. HamRadio — HAM radio software
+42. News — A news reader or a news ticker
+43. P2P — A P2P program
+44. RemoteAccess — A tool to remotely manage your PC
+45. Telephony — Telephony via PC
+46. TelephonyTools — Telephony tools, to dial a number, manage PBX, ...
+47. VideoConference — Video Conference software
+48. WebBrowser — A web browser
+49. WebDevelopment — A tool for web developers
+50. Midi — An app related to MIDI
+51. Mixer — Just a mixer
+52. Sequencer — A sequencer
+53. Tuner — A tuner
+54. TV — A TV application
+55. AudioVideoEditing — Application to edit audio/video files
+56. Player — Application to play audio/video files
+57. Recorder — Application to record audio/video files
+58. DiscBurning — Application to burn a disc
+59. ActionGame — An action game
+60. AdventureGame — Adventure style game
+61. ArcadeGame — Arcade style game
+62. BoardGame — A board game
+63. BlocksGame — Falling blocks game
+64. CardGame — A card game
+65. KidsGame — A game for kids
+66. LogicGame — Logic games like puzzles, etc
+67. RolePlaying — A role playing game
+68. Shooter — A shooter game
+69. Simulation — A simulation game
+70. SportsGame — A sports game
+71. StrategyGame — A strategy game
+72. LauncherStore — A place to browse and install games or a launcher for a game or games
+73. GameTool — Companion apps for games, such as addon managers, remote play clients or other tools
+74. Art — Software to teach arts
+75. Construction — (brak opisu)
+76. Music — Musical software
+77. Languages — Software to learn foreign languages
+78. ArtificialIntelligence — Artificial Intelligence software
+79. Astronomy — Astronomy software
+80. Biology — Biology software
+81. Chemistry — Chemistry software
+82. ComputerScience — Computer Science software
+83. DataVisualization — Data visualization software
+84. Economy — Economy software
+85. Electricity — Electricity software
+86. Geography — Geography software
+87. Geology — Geology software
+88. Geoscience — Geoscience software, GIS
+89. History — History software
+90. Humanities — Software for philosophy, psychology and other humanities
+91. ImageProcessing — Image Processing software
+92. Literature — Literature software
+93. Maps — Software for viewing maps, navigation, mapping, GPS
+94. Math — Math software
+95. NumericalAnalysis — Numerical analysis software
+96. MedicalSoftware — Medical software
+97. Physics — Physics software
+98. Robotics — Robotics software
+99. Spirituality — Religious and spiritual software, theology
+100. Sports — Sports software
+101. ParallelComputing — Parallel computing software
+102. Amusement — A simple amusement
+103. Archiving — A tool to archive/backup data
+104. Compression — A tool to manage compressed data/archives
+105. Electronics — Electronics software, e.g. a circuit designer
+106. Emulator — Emulator of another platform, such as a DOS emulator
+107. Engineering — Engineering software, e.g. CAD programs
+108. FileTools — A file tool utility
+109. FileManager — A file manager
+110. TerminalEmulator — A terminal emulator application
+111. Filesystem — A file system tool
+112. Monitor — Monitor application/applet that monitors some resource or activity
+113. Security — A security tool
+114. Accessibility — Accessibility
+115. Calculator — A calculator
+116. Clock — A clock application/applet
+117. TextEditor — A text editor
+118. Documentation — Help or documentation
+119. Adult — Application handles adult or explicit material
+120. Core — Important application, core to the desktop such as a file manager or a help browser
+121. KDE — Application based on KDE libraries
+122. COSMIC — Application based on COSMIC libraries
+123. GNOME — Application based on GNOME libraries
+124. LXQt — Application based on LXQt libraries
+125. XFCE — Application based on XFCE libraries
+126. DDE — Application based on DDE libraries
+127. GTK — Application based on GTK+ libraries
+128. Qt — Application based on Qt libraries
+129. Motif — Application based on Motif libraries
+130. Java — Application based on Java GUI libraries, such as AWT or Swing
+131. ConsoleOnly — Application that only works inside a terminal (text-based or command line application)
