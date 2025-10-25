@@ -46,15 +46,13 @@ if [[ $Type == "Application" ]]; then
   #is it Terminal App 
   echo "Is this app terminal app ? True or False"
   read Terminal 
-  if [[ $Terminal != True || $Terminal != False ]]; then
-    echo "Terminal=$Terminal" >> $path
-  fi
+  echo "Terminal=$Terminal" >> $path
 
   # Categories 
   echo "All posible Categories when you type L"
   read List
   if [[ $List = L ]]; then
-    most ./Categories
+    $PAGER ./Categories
   fi
   echo "Write Categoris like this: first, second, third, ..."
   read Categories
@@ -66,5 +64,3 @@ elif [[ $Type == "Link" ]]; then
   read  URL
   echo "URL=$URL" >> $path
 fi
-  
-
